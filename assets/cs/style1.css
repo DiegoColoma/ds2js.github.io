@@ -1,0 +1,77 @@
+/* Inicio CSS PUNTO 1*/
+
+.punto1 {
+    position: relative;
+    padding-left: 500px;
+    padding-bottom: 150px;
+}
+
+.caja {
+  
+    width: 500px;
+    height: 500px;
+    border: 2px;
+
+}
+
+img {
+    
+    width: 99%;
+    margin: 2px; 
+}
+
+/* Termino CSS PUNTO 1*/
+
+/* Inicio CSS PUNTO 2*/
+
+.gif {
+    width: 500px;
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 500px;
+}
+
+.numero{
+    padding-left: 700px;
+    padding-bottom: 10px;
+
+}
+
+.boton1 {
+    position: absolute;
+    left:  48%;
+}
+
+.p1 {
+    padding-left: 550px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+/* Termino CSS PUNTO 2*/
+
+/* Inicio CSS PUNTO 3*/
+
+.punto3 {
+    padding-left: 100px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.imagen3 {
+   
+    width: 400px;
+}
+
+.imagen4{
+    width: 520px;
+}
+.buton {
+    position: absolute;
+    left: 48%;
+    
+}
+
+.texto {
+    padding-left: 600px;
+    font-size: 50px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/cs/style1.css">
+</head>
+<body>
+    <!--Inicio punto 1-->
+
+    <div class="punto1">
+    <div class="caja" onclick="
+        leon = document.querySelector('.caja')
+        if(activo===false){
+            leon.style.backgroundColor = 'red'
+            activo = true
+        }else{
+            leon.style.backgroundColor = 'white'
+            activo = false
+         }">
+        <img src="assets/imgs/1rRk.gif" alt="">
+    </div>
+    </div>
+
+    <!--Termino punto 1-->
+
+    <!--Inicio punto 2-->
+
+    <div class="punto2">
+
+        <img class="gif" src="assets/imgs/YQL0.gif" alt="">
+
+        <div class="numero">
+    <select class="select1" name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>    
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <select class="select2" name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <select class="select3" name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+</div>
+
+    <button class="boton1" onclick="
+
+    parrafo = document.querySelector('.p1')
+    contraseña1 = document.querySelector('.select1').value
+    contraseña2 = document.querySelector('.select2').value
+    contraseña3 = document.querySelector('.select3').value
+    contraseña = contraseña1 + contraseña2 + contraseña3
+        if (contraseña === '911') {
+        parrafo.innerHTML = 'Password 1 correct'
+
+        } else if(contraseña == '714') {
+        parrafo.innerHTML = 'Password 2 correct'
+        } else {
+        parrafo.innerHTML = 'Password incorrect'
+        }
+    
+    
+    ">Ingresar</button>
+    <p class="p1"></p>
+        
+    </div>
+    <!--Termino punto 2-->
+
+
+    <!--Inicio punto 3-->
+
+     <div class="punto3">
+        <div>
+    <img class="imagen3" src="assets/imgs/XOsX.gif" alt="">
+    <input class="number1" type="text">
+</div>
+<div>
+    <img class="imagen4" src="assets/imgs/1V8t.gif" alt="">
+    <input class="number2" type="text">
+</div>
+<div>
+    <img class="imagen3" src="assets/imgs/7IsB.gif" alt="">
+    <input class="number3" type="text">
+</div>
+
+    </div>
+    <button class="buton" onclick="
+
+        texto = document.querySelector('.texto')
+        cantidad1 = document.querySelector('.number1').value
+        cantidad2 = document.querySelector('.number2').value
+        cantidad3 = document.querySelector('.number3').value
+        cantidad = Number(cantidad1) + Number(cantidad2) + Number(cantidad3);
+            if (cantidad <= 10) {
+            texto.innerHTML = 'Lleva' + cantidad + 'stickers'
+             }else {
+            texto.innerHTML = 'Lleva demasiados stickers'
+             }
+    
+    
+    ">verificar</button>
+    <p class="texto"></p>
+    
+
+    <!--Termino punto 3-->
+
+    <script src="assets/js/borde.js"></script>
+
+</body>
+</html>
